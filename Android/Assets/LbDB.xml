@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LB>
+    <Current>
+		<Battle>1</Battle>
+		<Scenario>2</Scenario>
+        <Turn>1</Turn>
+        <Phase>0</Phase>
+    </Current>
+</LB>
