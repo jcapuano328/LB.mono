@@ -4,18 +4,19 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
     <TextView
-        android:text="Large Text"
-        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textName"
-        android:layout_gravity="left"
-        android:background="#ff1469ea" />
+        android:background="#ffd92820"
+        android:layout_marginLeft="20dp" />
     <TextView
         android:text="Small Text"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textPublisher"
-        android:background="#ff6393dc" />
+        android:id="@+id/textDate"
+        android:background="#ffdc561a"
+        android:layout_marginLeft="20dp" />
 </LinearLayout>
