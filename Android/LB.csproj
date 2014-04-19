@@ -29,6 +29,7 @@
     <WarningLevel>4</WarningLevel>
     <AndroidLinkMode>None</AndroidLinkMode>
     <ConsolePause>false</ConsolePause>
+    <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>full</DebugType>
@@ -52,6 +53,7 @@
     <Compile Include="Activities\MainActivity.cs" />
     <Compile Include="Helpers\Helpers.cs" />
     <Compile Include="Adapters\BattleListAdapter.cs" />
+    <Compile Include="Activities\BattleActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -65,6 +67,10 @@
     <AndroidResource Include="Resources\layout\BattleListItem.axml" />
     <AndroidResource Include="Resources\drawable\lb.png" />
     <AndroidResource Include="Resources\layout\ScenarioListItem.axml" />
+    <AndroidResource Include="Resources\layout\Battle.axml" />
+    <AndroidResource Include="Resources\layout\MainTitlebar.axml" />
+    <AndroidResource Include="Resources\values\Style.xml" />
+    <AndroidResource Include="Resources\drawable\red_button.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>

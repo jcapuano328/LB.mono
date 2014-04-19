@@ -8,6 +8,8 @@ namespace LB.Core {
 	/// </summary>
 	public static class LbManager {
 
+		static IList<Battle> battles;
+
 		static LbManager ()
 		{
 		}
@@ -21,20 +23,37 @@ namespace LB.Core {
 		{
 			BattleRepositoryXML.Initialize(s);
 		}
-		
-		public static Lb GetLb()
+			
+
+		public static Game GetGame(int battleid, int scenarioid)
 		{
-			return LbRepositoryXML.GetLb();
+			Battle battle = GetBattle(battleid);
+			Scenario scenario = battle.GetScenario(scenarioid);
+			Lb saved = LbRepositoryXML.GetLb();
+			
+			return new Game(battle, scenario, saved);
 		}
 		
-		public static void SaveLb()
+		public static void SaveGame(Game game)
 		{
-			LbRepositoryXML.SaveLb();
+			LbRepositoryXML.SaveLb(game.Saved);
 		}
 		
 		public static IList<Battle> GetBattles() 
 		{
-			return new List<Battle>(BattleRepositoryXML.GetBattles());
+			if (battles == null)
+				battles = new List<Battle>(BattleRepositoryXML.GetBattles());
+			return battles;
 		}
+
+		public static Battle GetBattle(int id)
+		{
+			foreach (Battle b in GetBattles()) {
+				if (b.Id == id)
+					return b;
+			}
+			return null;
+		}			
+
 	}
 }

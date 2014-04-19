@@ -54,6 +54,7 @@
     <Compile Include="LBRepositoryXML.cs" />
     <Compile Include="Lb.cs" />
     <Compile Include="LBManager.cs" />
+    <Compile Include="Game.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

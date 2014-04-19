@@ -26,7 +26,7 @@ namespace LB.Core {
 		static void ReadXml ()
 		{
 			if (File.Exists (storeLocation)) {
-				var serializer = new XmlSerializer (typeof(List<Battle>));
+				var serializer = new XmlSerializer (typeof(Lb));
 				using (var stream = new FileStream (storeLocation, FileMode.Open)) {
 					lb = (Lb)serializer.Deserialize (stream);
 				}
@@ -72,8 +72,10 @@ namespace LB.Core {
 			return lb;
 		}
 		
-		public static void SaveLb()
+		public static void SaveLb(Lb saved)
 		{ 
+			if (saved != null)
+				lb = saved;
 			WriteXml ();
 		}
 	}

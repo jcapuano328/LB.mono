@@ -15,6 +15,16 @@ namespace LB.Core
 		public string Publisher {get;set;}
 		public int Sort {get;set;}
 		public IList<Scenario> Scenarios {get;set;}
+
+		public Scenario GetScenario(int id)
+		{
+			foreach (Scenario s in this.Scenarios) 
+			{
+				if (s.Id == id)
+					return s;
+			}
+			return null;
+		}
 	}
 }
 

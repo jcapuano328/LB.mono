@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Android.App;
 using Android.Content;
+using Android.Graphics;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
@@ -38,9 +39,19 @@ namespace LB
 
 			// create our adapter
 			battleList = new Adapters.BattleListAdapter(this, battles);
-
+						
 			//Hook up our adapter to our ListView
 			battleListView.SetAdapter(battleList);
+
+			battleListView.ChildClick += (object sender, ExpandableListView.ChildClickEventArgs e) => {
+				var battleDetail = new Intent (this, typeof(BattleActivity));
+				var battle = battles[e.GroupPosition];
+				var scenario = battle.Scenarios[e.ChildPosition];
+				battleDetail.PutExtra("Battle", battle.Id);
+				battleDetail.PutExtra ("Scenario", scenario.Id);
+
+				StartActivity (battleDetail);
+			};
 		}
 	}		
 }

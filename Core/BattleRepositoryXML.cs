@@ -11,7 +11,7 @@ namespace LB.Core {
 	/// The repository is responsible for providing an abstraction to actual data storage mechanism
 	/// whether it be SQLite, XML or some other method
 	/// </summary>
-	public class BattleRepositoryXML {
+	internal class BattleRepositoryXML {
 		static List<Battle> battles;
 
 		static BattleRepositoryXML ()

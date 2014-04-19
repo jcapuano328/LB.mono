@@ -9,14 +9,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textName"
-        android:background="#ffd92820"
-        android:layout_marginLeft="20dp" />
+        android:background="#ffd92820" />
     <TextView
         android:text="Small Text"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textDate"
-        android:background="#ffdc561a"
-        android:layout_marginLeft="20dp" />
+        android:background="#ffdc561a" />
 </LinearLayout>
