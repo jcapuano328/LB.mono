@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/MainTitlebar"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
     style="@style/MainTitleBarStyle">
+    <ImageView
+        android:src="@drawable/lb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleMainLb" />
     <TextView
         android:id="@+id/titleMainLeft"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="La Bataille"
-        android:textColor="#ff0054ff" />
+        android:text="@string/titleLaBat"
+        android:layout_toRightOf="@+id/titleMainLb"
+        android:textColor="#ff0054ff"
+        android:paddingLeft="5dp" />
     <TextView
         android:id="@+id/titleMainRight"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Assistant"
+        android:text="@string/titleAsst"
         android:layout_toRightOf="@+id/titleMainLeft"
         android:textColor="#ffff0019"
         android:paddingLeft="5dp" />
-</RelativeLayout>
+</LinearLayout>

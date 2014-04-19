@@ -11,7 +11,7 @@ using LB.Core;
 
 namespace LB
 {
-	[Activity (Label = "La Bataille Assistant", MainLauncher = true, Icon="@drawable/lb")]
+	[Activity (Label = "La Bataille Assistant", MainLauncher = true, Icon="@drawable/Icon")]
 	public class MainActivity : Activity
 	{
 		Adapters.BattleListAdapter battleList;

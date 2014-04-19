@@ -16,12 +16,16 @@ namespace LB
 	[Activity (Label = "La Bataille Assistant")]			
 	public class BattleActivity : Activity
 	{
+		TextView txtBattleName;
+		TextView txtScenarioName;
 		TextView txtTurn;
 		Button btnTurnPrev;
 		Button btnTurnNext;
 		TextView txtPhase;
 		Button btnPhasePrev;
 		Button btnPhaseNext;
+		ImageView imgBack;
+		ImageView imgLb;
 		Game game;
 
 		protected override void OnCreate (Bundle bundle)
@@ -31,46 +35,65 @@ namespace LB
 			game = LbManager.GetGame(Intent.GetIntExtra ("Battle", -1), Intent.GetIntExtra("Scenario", -1));
 
 			// set our layout to be the home screen
-			SetContentView(Resource.Layout.Battle);
+			SetContentView(Resource.Layout.Battle);		
 
-			// set the title
-			this.Title = "La Bataille Assistant    " + game.Battle.Name + " - " + game.Scenario.Name;
+			imgBack = FindViewById<ImageView> (Resource.Id.titleSubLbBack);
+			imgLb = FindViewById<ImageView> (Resource.Id.titleSubLb);
 
-			// populate the current turn
+			// title
+			txtBattleName = FindViewById<TextView>(Resource.Id.titleSubBattleName);
+			txtScenarioName = FindViewById<TextView>(Resource.Id.titleSubScenarioName);
+
+			// current turn
 			txtTurn = FindViewById<TextView>(Resource.Id.textTurn);
 			btnTurnPrev = FindViewById<Button>(Resource.Id.btnTurnPrev);
+			btnTurnNext = FindViewById<Button>(Resource.Id.btnTurnNext);
+
+			// current phase
+			txtPhase = FindViewById<TextView>(Resource.Id.textPhase);
+			btnPhasePrev = FindViewById<Button>(Resource.Id.btnPhasePrev);
+			btnPhaseNext = FindViewById<Button>(Resource.Id.btnPhaseNext);
+		}
+
+		protected override void OnResume ()
+		{
+			base.OnResume ();
+
+			imgBack.Click += (sender, e) => {
+				NavigateUp();
+			};
+
+			imgLb.Click += (sender, e) => {
+				NavigateUp();
+			};
+
+			txtBattleName.Text = game.Battle.Name;
+			txtScenarioName.Text = game.Scenario.Name;
+
 			btnTurnPrev.Click += (sender, e) => { 
 				game.PrevTurn();
 				Update();
 				Save(); 
 			};
-			btnTurnNext = FindViewById<Button>(Resource.Id.btnTurnNext);
 			btnTurnNext.Click += (sender, e) => { 
 				game.NextTurn();
 				Update();
 				Save(); 
 			};
-			
 
-			// populate the current phase
-			txtPhase = FindViewById<TextView>(Resource.Id.textPhase);
-			btnPhasePrev = FindViewById<Button>(Resource.Id.btnPhasePrev);
 			btnPhasePrev.Click += (sender, e) => { 
 				game.PrevPhase();
 				Update();
 				Save(); 
 			};
-			
-			btnPhaseNext = FindViewById<Button>(Resource.Id.btnPhaseNext);
 			btnPhaseNext.Click += (sender, e) => { 
 				game.NextPhase();
 				Update();
 				Save(); 
-			};
-			
+			};				
+
 			Update();
 		}
-		
 		
 		void Update()
 		{
@@ -81,6 +104,11 @@ namespace LB
 		void Save()
 		{
 			LbManager.SaveGame(game);
+		}
+
+		void NavigateUp()
+		{
+			StartActivity (new Intent (this, typeof(MainActivity)));
 		}
 	}
 }

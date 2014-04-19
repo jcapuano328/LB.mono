@@ -3,10 +3,14 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
+    <include
+        android:id="@+id/includeBattleTitlebar"
+        layout="@layout/SubTitlebar" />
     <LinearLayout
         android:id="@+id/layoutTurn"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/includeBattleTitlebar"
         android:weightSum="1.0">
         <Button
             android:id="@+id/btnTurnPrev"
