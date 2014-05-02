@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".15"
             android:layout_toLeftOf="@+id/textTurn"
-            android:background="@drawable/red_button"
+            android:background="@drawable/blue_button"
             style="@style/button_text" />
         <TextView
             android:id="@+id/textTurn"
@@ -39,7 +39,7 @@
             android:layout_weight=".15"
             android:layout_alignTop="@+id/btnTurnPrev"
             android:layout_toRightOf="@+id/textTurn"
-            android:background="@drawable/red_button"
+            android:background="@drawable/blue_button"
             style="@style/button_text" />
     </LinearLayout>
     <Space
@@ -62,7 +62,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".15"
             android:layout_toLeftOf="@+id/textPhase"
-            android:background="@drawable/red_button"
+            android:background="@drawable/blue_button"
             style="@style/button_text" />
         <TextView
             android:id="@+id/textPhase"
@@ -82,7 +82,7 @@
             android:layout_weight=".15"
             android:layout_alignTop="@+id/btnPhasePrev"
             android:layout_toRightOf="@+id/textPhase"
-            android:background="@drawable/red_button"
+            android:background="@drawable/blue_button"
             style="@style/button_text" />
     </LinearLayout>
     <Space

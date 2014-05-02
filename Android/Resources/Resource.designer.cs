@@ -46,16 +46,22 @@ namespace LB
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int ic_ab_back_holo_dark = 2130837504;
+			public const int blue_button = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int Icon = 2130837505;
+			public const int ic_ab_back_holo_dark = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int lb = 2130837506;
+			public const int Icon = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int red_button = 2130837507;
+			public const int lb = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int red_button = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int reset = 2130837509;
 			
 			static Drawable()
 			{
@@ -81,6 +87,9 @@ namespace LB
 			
 			// aapt resource value: 0x7f060007
 			public const int btnPhasePrev = 2131099655;
+			
+			// aapt resource value: 0x7f060020
+			public const int btnReset = 2131099680;
 			
 			// aapt resource value: 0x7f060004
 			public const int btnTurnNext = 2131099652;
@@ -216,6 +225,9 @@ namespace LB
 			// aapt resource value: 0x7f040000
 			public const int library_name = 2130968576;
 			
+			// aapt resource value: 0x7f040004
+			public const int reset = 2130968580;
+			
 			// aapt resource value: 0x7f040003
 			public const int titleAsst = 2130968579;
 			
@@ -243,6 +255,9 @@ namespace LB
 			
 			// aapt resource value: 0x7f050002
 			public const int SubTitleBarStyle = 2131034114;
+			
+			// aapt resource value: 0x7f050004
+			public const int button_reset_text = 2131034116;
 			
 			// aapt resource value: 0x7f050003
 			public const int button_text = 2131034115;

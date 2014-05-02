@@ -3,4 +3,5 @@
 	<string name="app_name">LB</string>
 	<string name="titleLaBat">La Bataille</string>
 	<string name="titleAsst">Assistant</string>
+	<string name="reset">Reset</string>
 </resources>

@@ -73,6 +73,8 @@
     <AndroidResource Include="Resources\drawable\red_button.xml" />
     <AndroidResource Include="Resources\layout\SubTitlebar.axml" />
     <AndroidResource Include="Resources\drawable\ic_ab_back_holo_dark.png" />
+    <AndroidResource Include="Resources\drawable\reset.png" />
+    <AndroidResource Include="Resources\drawable\blue_button.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
