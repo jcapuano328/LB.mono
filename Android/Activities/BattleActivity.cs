@@ -16,16 +16,18 @@ namespace LB
 	[Activity (Label = "La Bataille Assistant")]			
 	public class BattleActivity : Activity
 	{
+		ImageView imgBack;
+		ImageView imgLb;
 		TextView txtBattleName;
 		TextView txtScenarioName;
+		Button btnReset;
 		TextView txtTurn;
 		Button btnTurnPrev;
 		Button btnTurnNext;
 		TextView txtPhase;
 		Button btnPhasePrev;
 		Button btnPhaseNext;
-		ImageView imgBack;
-		ImageView imgLb;
+		Button btnFire;
 		Game game;
 
 		protected override void OnCreate (Bundle bundle)
@@ -53,6 +55,10 @@ namespace LB
 			txtPhase = FindViewById<TextView>(Resource.Id.textPhase);
 			btnPhasePrev = FindViewById<Button>(Resource.Id.btnPhasePrev);
 			btnPhaseNext = FindViewById<Button>(Resource.Id.btnPhaseNext);
+
+			btnReset = FindViewById<Button>(Resource.Id.btnReset);
+
+			btnFire = FindViewById<Button>(Resource.Id.btnFire);
 		}
 
 		protected override void OnResume ()
@@ -70,6 +76,12 @@ namespace LB
 			txtBattleName.Text = game.Battle.Name;
 			txtScenarioName.Text = game.Scenario.Name;
 
+			btnReset.Click += (sender, e) => {
+				game.Reset();
+				Update();
+				Save();
+			};
+				
 			btnTurnPrev.Click += (sender, e) => { 
 				game.PrevTurn();
 				Update();
@@ -91,6 +103,15 @@ namespace LB
 				Update();
 				Save(); 
 			};				
+
+			btnFire.Click += (sender, e) => { 
+
+				var fireDetail = new Intent (this, typeof(FireCombatActivity));
+				fireDetail.PutExtra("Battle", game.Battle.Id);
+				fireDetail.PutExtra ("Scenario", game.Scenario.Id);
+
+				StartActivity (fireDetail);
+			};
 
 			Update();
 		}

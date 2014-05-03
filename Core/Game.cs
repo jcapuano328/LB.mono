@@ -79,6 +79,11 @@ namespace LB.Core
                 return _phases[_saved.Phase];
 			}
 		}
+
+		public void Reset()
+		{
+			_saved.Reset (this.Battle, this.Scenario);
+		}
 		
 		public void NextTurn()
 		{

@@ -54,6 +54,7 @@
     <Compile Include="Helpers\Helpers.cs" />
     <Compile Include="Adapters\BattleListAdapter.cs" />
     <Compile Include="Activities\BattleActivity.cs" />
+    <Compile Include="Activities\FireCombatActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -75,6 +76,39 @@
     <AndroidResource Include="Resources\drawable\ic_ab_back_holo_dark.png" />
     <AndroidResource Include="Resources\drawable\reset.png" />
     <AndroidResource Include="Resources\drawable\blue_button.xml" />
+    <AndroidResource Include="Resources\layout\FireCombat.axml" />
+    <AndroidResource Include="Resources\drawable\border.xml" />
+    <AndroidResource Include="Resources\layout\BattleTitlebar.axml" />
+    <AndroidResource Include="Resources\drawable\blackr1.png" />
+    <AndroidResource Include="Resources\drawable\blackr2.png" />
+    <AndroidResource Include="Resources\drawable\blackr3.png" />
+    <AndroidResource Include="Resources\drawable\blackr4.png" />
+    <AndroidResource Include="Resources\drawable\blackr5.png" />
+    <AndroidResource Include="Resources\drawable\blackr6.png" />
+    <AndroidResource Include="Resources\drawable\blackw1.png" />
+    <AndroidResource Include="Resources\drawable\blackw2.png" />
+    <AndroidResource Include="Resources\drawable\blackw3.png" />
+    <AndroidResource Include="Resources\drawable\blackw4.png" />
+    <AndroidResource Include="Resources\drawable\blackw5.png" />
+    <AndroidResource Include="Resources\drawable\blackw6.png" />
+    <AndroidResource Include="Resources\drawable\blue1.png" />
+    <AndroidResource Include="Resources\drawable\blue2.png" />
+    <AndroidResource Include="Resources\drawable\blue3.png" />
+    <AndroidResource Include="Resources\drawable\blue4.png" />
+    <AndroidResource Include="Resources\drawable\blue5.png" />
+    <AndroidResource Include="Resources\drawable\blue6.png" />
+    <AndroidResource Include="Resources\drawable\redw1.png" />
+    <AndroidResource Include="Resources\drawable\redw2.png" />
+    <AndroidResource Include="Resources\drawable\redw3.png" />
+    <AndroidResource Include="Resources\drawable\redw4.png" />
+    <AndroidResource Include="Resources\drawable\redw5.png" />
+    <AndroidResource Include="Resources\drawable\redw6.png" />
+    <AndroidResource Include="Resources\drawable\whiteb1.png" />
+    <AndroidResource Include="Resources\drawable\whiteb2.png" />
+    <AndroidResource Include="Resources\drawable\whiteb3.png" />
+    <AndroidResource Include="Resources\drawable\whiteb4.png" />
+    <AndroidResource Include="Resources\drawable\whiteb5.png" />
+    <AndroidResource Include="Resources\drawable\whiteb6.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>

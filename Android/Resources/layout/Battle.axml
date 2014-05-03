@@ -5,7 +5,7 @@
     android:layout_height="fill_parent">
     <include
         android:id="@+id/includeBattleTitlebar"
-        layout="@layout/SubTitlebar" />
+        layout="@layout/BattleTitlebar" />
     <LinearLayout
         android:id="@+id/layoutTurn"
         android:layout_width="fill_parent"
@@ -116,13 +116,13 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".45"
-                android:id="@+id/button1" />
+                android:id="@+id/btnFire" />
             <Button
                 android:text="Melee"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".45"
-                android:id="@+id/button2" />
+                android:id="@+id/btnMelee" />
         </LinearLayout>
         <LinearLayout
             android:orientation="horizontal"
@@ -140,13 +140,13 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".45"
-                android:id="@+id/button3" />
+                android:id="@+id/btnMorale" />
             <Button
                 android:text="General"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".45"
-                android:id="@+id/button4" />
+                android:id="@+id/btnGeneral" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
