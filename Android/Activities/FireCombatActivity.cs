@@ -56,6 +56,7 @@ namespace LB
 		Dice dice;
 		FireCombat fc;
 		Odds odds;
+		PlayAudio audio;
 
 		double[] DefenseValues = new double[] {4,6,7,8,9,10,12,14,16,18};
 		
@@ -64,6 +65,7 @@ namespace LB
 			dice = new Dice(5, 1, 6);
 			fc = new FireCombat();
 			odds = fc.DefaultOdds;
+			audio = new PlayAudio (this);
 		
 			base.OnCreate (bundle);
 
@@ -270,6 +272,7 @@ namespace LB
 			};
 			
 			btnFireDiceRoll.Click += (sender, e) => {
+				audio.Play();
 				dice.Roll();
 				DisplayDice();
 				UpdateResults();

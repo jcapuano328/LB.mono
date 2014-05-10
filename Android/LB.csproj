@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>10.0.0</ProductVersion>
+    <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{D38776E0-18CE-47DD-A0D5-F1AB30A825A3}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -56,6 +56,7 @@
     <Compile Include="Activities\BattleActivity.cs" />
     <Compile Include="Activities\FireCombatActivity.cs" />
     <Compile Include="Helpers\DiceResources.cs" />
+    <Compile Include="Helpers\PlayAudio.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -115,6 +116,7 @@
     <AndroidResource Include="Resources\drawable\ambulance.png" />
     <AndroidResource Include="Resources\drawable\capture.svg" />
     <AndroidResource Include="Resources\drawable\tombstone.png" />
+    <AndroidResource Include="Resources\raw\droll.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
@@ -127,6 +129,7 @@
     <Folder Include="Adapters\" />
     <Folder Include="Activities\" />
     <Folder Include="Helpers\" />
+    <Folder Include="Resources\raw\" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\BattleDB.xml" />
