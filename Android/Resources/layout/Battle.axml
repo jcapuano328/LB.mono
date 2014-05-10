@@ -24,7 +24,7 @@
         <TextView
             android:id="@+id/textTurn"
             android:text="October 11, 1806  09:40 PM"
-            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@+id/btnTurnPrev"
@@ -67,7 +67,7 @@
         <TextView
             android:id="@+id/textPhase"
             android:text="Command"
-            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@+id/btnPhasePrev"
@@ -97,7 +97,7 @@
         android:minWidth="25px"
         android:minHeight="25px"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="fill_parent"
         android:layout_below="@id/space2"
         android:id="@+id/layoutActions"
         android:weightSum="1">
