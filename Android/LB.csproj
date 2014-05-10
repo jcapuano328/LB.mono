@@ -55,6 +55,7 @@
     <Compile Include="Adapters\BattleListAdapter.cs" />
     <Compile Include="Activities\BattleActivity.cs" />
     <Compile Include="Activities\FireCombatActivity.cs" />
+    <Compile Include="Helpers\DiceResources.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -109,6 +110,11 @@
     <AndroidResource Include="Resources\drawable\whiteb4.png" />
     <AndroidResource Include="Resources\drawable\whiteb5.png" />
     <AndroidResource Include="Resources\drawable\whiteb6.png" />
+    <AndroidResource Include="Resources\drawable\attacker.png" />
+    <AndroidResource Include="Resources\drawable\defender.png" />
+    <AndroidResource Include="Resources\drawable\ambulance.png" />
+    <AndroidResource Include="Resources\drawable\capture.svg" />
+    <AndroidResource Include="Resources\drawable\tombstone.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>

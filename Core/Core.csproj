@@ -55,6 +55,11 @@
     <Compile Include="Lb.cs" />
     <Compile Include="LBManager.cs" />
     <Compile Include="Game.cs" />
+    <Compile Include="Dice.cs" />
+    <Compile Include="FireCombat.cs" />
+    <Compile Include="Odds.cs" />
+    <Compile Include="Base6Value.cs" />
+    <Compile Include="LeaderLoss.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

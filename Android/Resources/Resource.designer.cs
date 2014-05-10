@@ -46,115 +46,130 @@ namespace LB
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int blackr1 = 2130837504;
+			public const int ambulance = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int blackr2 = 2130837505;
+			public const int attacker = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int blackr3 = 2130837506;
+			public const int blackr1 = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int blackr4 = 2130837507;
+			public const int blackr2 = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int blackr5 = 2130837508;
+			public const int blackr3 = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int blackr6 = 2130837509;
+			public const int blackr4 = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int blackw1 = 2130837510;
+			public const int blackr5 = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int blackw2 = 2130837511;
+			public const int blackr6 = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int blackw3 = 2130837512;
+			public const int blackw1 = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int blackw4 = 2130837513;
+			public const int blackw2 = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
-			public const int blackw5 = 2130837514;
+			public const int blackw3 = 2130837514;
 			
 			// aapt resource value: 0x7f02000b
-			public const int blackw6 = 2130837515;
+			public const int blackw4 = 2130837515;
 			
 			// aapt resource value: 0x7f02000c
-			public const int blue1 = 2130837516;
+			public const int blackw5 = 2130837516;
 			
 			// aapt resource value: 0x7f02000d
-			public const int blue2 = 2130837517;
+			public const int blackw6 = 2130837517;
 			
 			// aapt resource value: 0x7f02000e
-			public const int blue3 = 2130837518;
+			public const int blue1 = 2130837518;
 			
 			// aapt resource value: 0x7f02000f
-			public const int blue4 = 2130837519;
+			public const int blue2 = 2130837519;
 			
 			// aapt resource value: 0x7f020010
-			public const int blue5 = 2130837520;
+			public const int blue3 = 2130837520;
 			
 			// aapt resource value: 0x7f020011
-			public const int blue6 = 2130837521;
+			public const int blue4 = 2130837521;
 			
 			// aapt resource value: 0x7f020012
-			public const int blue_button = 2130837522;
+			public const int blue5 = 2130837522;
 			
 			// aapt resource value: 0x7f020013
-			public const int border = 2130837523;
+			public const int blue6 = 2130837523;
 			
 			// aapt resource value: 0x7f020014
-			public const int ic_ab_back_holo_dark = 2130837524;
+			public const int blue_button = 2130837524;
 			
 			// aapt resource value: 0x7f020015
-			public const int Icon = 2130837525;
+			public const int border = 2130837525;
 			
 			// aapt resource value: 0x7f020016
-			public const int lb = 2130837526;
+			public const int capture = 2130837526;
 			
 			// aapt resource value: 0x7f020017
-			public const int red_button = 2130837527;
+			public const int defender = 2130837527;
 			
 			// aapt resource value: 0x7f020018
-			public const int redw1 = 2130837528;
+			public const int ic_ab_back_holo_dark = 2130837528;
 			
 			// aapt resource value: 0x7f020019
-			public const int redw2 = 2130837529;
+			public const int Icon = 2130837529;
 			
 			// aapt resource value: 0x7f02001a
-			public const int redw3 = 2130837530;
+			public const int lb = 2130837530;
 			
 			// aapt resource value: 0x7f02001b
-			public const int redw4 = 2130837531;
+			public const int red_button = 2130837531;
 			
 			// aapt resource value: 0x7f02001c
-			public const int redw5 = 2130837532;
+			public const int redw1 = 2130837532;
 			
 			// aapt resource value: 0x7f02001d
-			public const int redw6 = 2130837533;
+			public const int redw2 = 2130837533;
 			
 			// aapt resource value: 0x7f02001e
-			public const int reset = 2130837534;
+			public const int redw3 = 2130837534;
 			
 			// aapt resource value: 0x7f02001f
-			public const int whiteb1 = 2130837535;
+			public const int redw4 = 2130837535;
 			
 			// aapt resource value: 0x7f020020
-			public const int whiteb2 = 2130837536;
+			public const int redw5 = 2130837536;
 			
 			// aapt resource value: 0x7f020021
-			public const int whiteb3 = 2130837537;
+			public const int redw6 = 2130837537;
 			
 			// aapt resource value: 0x7f020022
-			public const int whiteb4 = 2130837538;
+			public const int reset = 2130837538;
 			
 			// aapt resource value: 0x7f020023
-			public const int whiteb5 = 2130837539;
+			public const int tombstone = 2130837539;
 			
 			// aapt resource value: 0x7f020024
-			public const int whiteb6 = 2130837540;
+			public const int whiteb1 = 2130837540;
+			
+			// aapt resource value: 0x7f020025
+			public const int whiteb2 = 2130837541;
+			
+			// aapt resource value: 0x7f020026
+			public const int whiteb3 = 2130837542;
+			
+			// aapt resource value: 0x7f020027
+			public const int whiteb4 = 2130837543;
+			
+			// aapt resource value: 0x7f020028
+			public const int whiteb5 = 2130837544;
+			
+			// aapt resource value: 0x7f020029
+			public const int whiteb6 = 2130837545;
 			
 			static Drawable()
 			{
@@ -172,11 +187,11 @@ namespace LB
 			// aapt resource value: 0x7f060014
 			public const int BattleTitlebar = 2131099668;
 			
-			// aapt resource value: 0x7f060044
-			public const int MainTitlebar = 2131099716;
+			// aapt resource value: 0x7f060047
+			public const int MainTitlebar = 2131099719;
 			
-			// aapt resource value: 0x7f060049
-			public const int SubTitlebar = 2131099721;
+			// aapt resource value: 0x7f06004c
+			public const int SubTitlebar = 2131099724;
 			
 			// aapt resource value: 0x7f06000d
 			public const int btnFire = 2131099661;
@@ -253,14 +268,20 @@ namespace LB
 			// aapt resource value: 0x7f06003c
 			public const int imgFireDie5 = 2131099708;
 			
+			// aapt resource value: 0x7f060044
+			public const int imgFireLeaderLoss = 2131099716;
+			
+			// aapt resource value: 0x7f060042
+			public const int imgFireLeaderLossSide = 2131099714;
+			
 			// aapt resource value: 0x7f060000
 			public const int includeBattleTitlebar = 2131099648;
 			
 			// aapt resource value: 0x7f06001a
 			public const int includeFireTitlebar = 2131099674;
 			
-			// aapt resource value: 0x7f060042
-			public const int includeMainTitlebar = 2131099714;
+			// aapt resource value: 0x7f060045
+			public const int includeMainTitlebar = 2131099717;
 			
 			// aapt resource value: 0x7f06000b
 			public const int layoutActions = 2131099659;
@@ -322,11 +343,11 @@ namespace LB
 			// aapt resource value: 0x7f060036
 			public const int lblFireOdds = 2131099702;
 			
-			// aapt resource value: 0x7f060041
-			public const int lblFireResults = 2131099713;
+			// aapt resource value: 0x7f060040
+			public const int lblFireResults = 2131099712;
 			
-			// aapt resource value: 0x7f060043
-			public const int listBattles = 2131099715;
+			// aapt resource value: 0x7f060046
+			public const int listBattles = 2131099718;
 			
 			// aapt resource value: 0x7f060005
 			public const int space1 = 2131099653;
@@ -337,8 +358,8 @@ namespace LB
 			// aapt resource value: 0x7f060035
 			public const int spinFireOdds = 2131099701;
 			
-			// aapt resource value: 0x7f060048
-			public const int textDate = 2131099720;
+			// aapt resource value: 0x7f06004b
+			public const int textDate = 2131099723;
 			
 			// aapt resource value: 0x7f060020
 			public const int textFireAttackerValue = 2131099680;
@@ -361,14 +382,14 @@ namespace LB
 			// aapt resource value: 0x7f060003
 			public const int textTurn = 2131099651;
 			
-			// aapt resource value: 0x7f060045
-			public const int titleMainLb = 2131099717;
+			// aapt resource value: 0x7f060048
+			public const int titleMainLb = 2131099720;
 			
-			// aapt resource value: 0x7f060046
-			public const int titleMainLeft = 2131099718;
+			// aapt resource value: 0x7f060049
+			public const int titleMainLeft = 2131099721;
 			
-			// aapt resource value: 0x7f060047
-			public const int titleMainRight = 2131099719;
+			// aapt resource value: 0x7f06004a
+			public const int titleMainRight = 2131099722;
 			
 			// aapt resource value: 0x7f060017
 			public const int titleSubBattleName = 2131099671;
@@ -388,8 +409,11 @@ namespace LB
 			// aapt resource value: 0x7f060028
 			public const int txtFireDefender = 2131099688;
 			
-			// aapt resource value: 0x7f060040
-			public const int txtFireResults = 2131099712;
+			// aapt resource value: 0x7f060043
+			public const int txtFireLeaderLoss = 2131099715;
+			
+			// aapt resource value: 0x7f060041
+			public const int txtFireResults = 2131099713;
 			
 			static Id()
 			{
