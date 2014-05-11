@@ -58,6 +58,7 @@
     <Compile Include="Helpers\DiceResources.cs" />
     <Compile Include="Helpers\PlayAudio.cs" />
     <Compile Include="Activities\MoraleActivity.cs" />
+    <Compile Include="Activities\GeneralActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -123,6 +124,7 @@
     <AndroidResource Include="Resources\drawable\melee.png" />
     <AndroidResource Include="Resources\drawable\morale.png" />
     <AndroidResource Include="Resources\layout\Morale.axml" />
+    <AndroidResource Include="Resources\layout\General.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>

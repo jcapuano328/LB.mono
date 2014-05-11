@@ -199,11 +199,11 @@ namespace LB
 			// aapt resource value: 0x7f070014
 			public const int BattleTitlebar = 2131165204;
 			
-			// aapt resource value: 0x7f070048
-			public const int MainTitlebar = 2131165256;
+			// aapt resource value: 0x7f070052
+			public const int MainTitlebar = 2131165266;
 			
-			// aapt resource value: 0x7f070065
-			public const int SubTitlebar = 2131165285;
+			// aapt resource value: 0x7f07006f
+			public const int SubTitlebar = 2131165295;
 			
 			// aapt resource value: 0x7f07000d
 			public const int btnFire = 2131165197;
@@ -244,38 +244,44 @@ namespace LB
 			// aapt resource value: 0x7f070011
 			public const int btnGeneral = 2131165201;
 			
+			// aapt resource value: 0x7f07004f
+			public const int btnGeneral1DiceRoll = 2131165263;
+			
+			// aapt resource value: 0x7f07004a
+			public const int btnGeneral2DiceRoll = 2131165258;
+			
 			// aapt resource value: 0x7f07000e
 			public const int btnMelee = 2131165198;
 			
 			// aapt resource value: 0x7f070010
 			public const int btnMorale = 2131165200;
 			
-			// aapt resource value: 0x7f070056
-			public const int btnMoraleDiceRoll = 2131165270;
+			// aapt resource value: 0x7f070060
+			public const int btnMoraleDiceRoll = 2131165280;
 			
-			// aapt resource value: 0x7f07005a
-			public const int btnMoraleMinus1 = 2131165274;
+			// aapt resource value: 0x7f070064
+			public const int btnMoraleMinus1 = 2131165284;
 			
-			// aapt resource value: 0x7f070059
-			public const int btnMoraleMinus3 = 2131165273;
+			// aapt resource value: 0x7f070063
+			public const int btnMoraleMinus3 = 2131165283;
+			
+			// aapt resource value: 0x7f070062
+			public const int btnMoraleMinus6 = 2131165282;
+			
+			// aapt resource value: 0x7f07005b
+			public const int btnMoraleNext = 2131165275;
+			
+			// aapt resource value: 0x7f070066
+			public const int btnMoralePlus1 = 2131165286;
+			
+			// aapt resource value: 0x7f070067
+			public const int btnMoralePlus3 = 2131165287;
+			
+			// aapt resource value: 0x7f070069
+			public const int btnMoralePlus6 = 2131165289;
 			
 			// aapt resource value: 0x7f070058
-			public const int btnMoraleMinus6 = 2131165272;
-			
-			// aapt resource value: 0x7f070051
-			public const int btnMoraleNext = 2131165265;
-			
-			// aapt resource value: 0x7f07005c
-			public const int btnMoralePlus1 = 2131165276;
-			
-			// aapt resource value: 0x7f07005d
-			public const int btnMoralePlus3 = 2131165277;
-			
-			// aapt resource value: 0x7f07005f
-			public const int btnMoralePlus6 = 2131165279;
-			
-			// aapt resource value: 0x7f07004e
-			public const int btnMoralePrev = 2131165262;
+			public const int btnMoralePrev = 2131165272;
 			
 			// aapt resource value: 0x7f070009
 			public const int btnPhaseNext = 2131165193;
@@ -292,8 +298,8 @@ namespace LB
 			// aapt resource value: 0x7f070002
 			public const int btnTurnPrev = 2131165186;
 			
-			// aapt resource value: 0x7f070050
-			public const int editMoraleValue = 2131165264;
+			// aapt resource value: 0x7f07005a
+			public const int editMoraleValue = 2131165274;
 			
 			// aapt resource value: 0x7f070039
 			public const int imgFireDie1 = 2131165241;
@@ -316,11 +322,20 @@ namespace LB
 			// aapt resource value: 0x7f070043
 			public const int imgFireLeaderLossSide = 2131165251;
 			
-			// aapt resource value: 0x7f070054
-			public const int imgMoraleDie1 = 2131165268;
+			// aapt resource value: 0x7f07004d
+			public const int imgGeneral1Die1 = 2131165261;
 			
-			// aapt resource value: 0x7f070055
-			public const int imgMoraleDie2 = 2131165269;
+			// aapt resource value: 0x7f070048
+			public const int imgGeneral2Die1 = 2131165256;
+			
+			// aapt resource value: 0x7f070049
+			public const int imgGeneral2Die2 = 2131165257;
+			
+			// aapt resource value: 0x7f07005e
+			public const int imgMoraleDie1 = 2131165278;
+			
+			// aapt resource value: 0x7f07005f
+			public const int imgMoraleDie2 = 2131165279;
 			
 			// aapt resource value: 0x7f070000
 			public const int includeBattleTitlebar = 2131165184;
@@ -329,10 +344,13 @@ namespace LB
 			public const int includeFireTitlebar = 2131165210;
 			
 			// aapt resource value: 0x7f070046
-			public const int includeMainTitlebar = 2131165254;
+			public const int includeGeneralTitlebar = 2131165254;
 			
-			// aapt resource value: 0x7f07004c
-			public const int includeMoraleTitlebar = 2131165260;
+			// aapt resource value: 0x7f070050
+			public const int includeMainTitlebar = 2131165264;
+			
+			// aapt resource value: 0x7f070056
+			public const int includeMoraleTitlebar = 2131165270;
 			
 			// aapt resource value: 0x7f07000b
 			public const int layoutActions = 2131165195;
@@ -379,17 +397,23 @@ namespace LB
 			// aapt resource value: 0x7f070040
 			public const int layoutFireResults2 = 2131165248;
 			
-			// aapt resource value: 0x7f070053
-			public const int layoutMoraleDice = 2131165267;
+			// aapt resource value: 0x7f07004c
+			public const int layoutGeneral1Dice = 2131165260;
 			
-			// aapt resource value: 0x7f070057
-			public const int layoutMoraleMods = 2131165271;
+			// aapt resource value: 0x7f070047
+			public const int layoutGeneral2Dice = 2131165255;
+			
+			// aapt resource value: 0x7f07005d
+			public const int layoutMoraleDice = 2131165277;
 			
 			// aapt resource value: 0x7f070061
-			public const int layoutMoraleResults = 2131165281;
+			public const int layoutMoraleMods = 2131165281;
 			
-			// aapt resource value: 0x7f07004d
-			public const int layoutMoraleValue = 2131165261;
+			// aapt resource value: 0x7f07006b
+			public const int layoutMoraleResults = 2131165291;
+			
+			// aapt resource value: 0x7f070057
+			public const int layoutMoraleValue = 2131165271;
 			
 			// aapt resource value: 0x7f070006
 			public const int layoutPhase = 2131165190;
@@ -412,23 +436,29 @@ namespace LB
 			// aapt resource value: 0x7f070041
 			public const int lblFireResults = 2131165249;
 			
-			// aapt resource value: 0x7f07005b
-			public const int lblMoraleDiv = 2131165275;
+			// aapt resource value: 0x7f070065
+			public const int lblMoraleDiv = 2131165285;
 			
-			// aapt resource value: 0x7f07005e
-			public const int lblMoralePlus1 = 2131165278;
+			// aapt resource value: 0x7f070068
+			public const int lblMoralePlus1 = 2131165288;
 			
-			// aapt resource value: 0x7f070060
-			public const int lblMoralePlus3 = 2131165280;
+			// aapt resource value: 0x7f07006a
+			public const int lblMoralePlus3 = 2131165290;
 			
-			// aapt resource value: 0x7f070062
-			public const int lblMoraleResults = 2131165282;
+			// aapt resource value: 0x7f07006c
+			public const int lblMoraleResults = 2131165292;
 			
-			// aapt resource value: 0x7f07004f
-			public const int lblMoraleValue = 2131165263;
+			// aapt resource value: 0x7f070059
+			public const int lblMoraleValue = 2131165273;
 			
-			// aapt resource value: 0x7f070047
-			public const int listBattles = 2131165255;
+			// aapt resource value: 0x7f070051
+			public const int listBattles = 2131165265;
+			
+			// aapt resource value: 0x7f07004b
+			public const int moraleSpace0 = 2131165259;
+			
+			// aapt resource value: 0x7f07004e
+			public const int moraleSpace1 = 2131165262;
 			
 			// aapt resource value: 0x7f070005
 			public const int space1 = 2131165189;
@@ -439,8 +469,8 @@ namespace LB
 			// aapt resource value: 0x7f070036
 			public const int spinFireOdds = 2131165238;
 			
-			// aapt resource value: 0x7f070064
-			public const int textDate = 2131165284;
+			// aapt resource value: 0x7f07006e
+			public const int textDate = 2131165294;
 			
 			// aapt resource value: 0x7f070021
 			public const int textFireAttackerValue = 2131165217;
@@ -451,8 +481,8 @@ namespace LB
 			// aapt resource value: 0x7f07002d
 			public const int textFireDefenderValue = 2131165229;
 			
-			// aapt resource value: 0x7f070052
-			public const int textMoraleValue = 2131165266;
+			// aapt resource value: 0x7f07005c
+			public const int textMoraleValue = 2131165276;
 			
 			// aapt resource value: 0x7f070012
 			public const int textName = 2131165202;
@@ -466,14 +496,14 @@ namespace LB
 			// aapt resource value: 0x7f070003
 			public const int textTurn = 2131165187;
 			
-			// aapt resource value: 0x7f070049
-			public const int titleMainLb = 2131165257;
+			// aapt resource value: 0x7f070053
+			public const int titleMainLb = 2131165267;
 			
-			// aapt resource value: 0x7f07004a
-			public const int titleMainLeft = 2131165258;
+			// aapt resource value: 0x7f070054
+			public const int titleMainLeft = 2131165268;
 			
-			// aapt resource value: 0x7f07004b
-			public const int titleMainRight = 2131165259;
+			// aapt resource value: 0x7f070055
+			public const int titleMainRight = 2131165269;
 			
 			// aapt resource value: 0x7f070017
 			public const int titleSubBattleName = 2131165207;
@@ -499,8 +529,8 @@ namespace LB
 			// aapt resource value: 0x7f070042
 			public const int txtFireResults = 2131165250;
 			
-			// aapt resource value: 0x7f070063
-			public const int txtMoraleResults = 2131165283;
+			// aapt resource value: 0x7f07006d
+			public const int txtMoraleResults = 2131165293;
 			
 			static Id()
 			{
@@ -528,19 +558,22 @@ namespace LB
 			public const int FireCombat = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int Main = 2130903044;
+			public const int General = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int MainTitlebar = 2130903045;
+			public const int Main = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int Morale = 2130903046;
+			public const int MainTitlebar = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int ScenarioListItem = 2130903047;
+			public const int Morale = 2130903047;
 			
 			// aapt resource value: 0x7f030008
-			public const int SubTitlebar = 2130903048;
+			public const int ScenarioListItem = 2130903048;
+			
+			// aapt resource value: 0x7f030009
+			public const int SubTitlebar = 2130903049;
 			
 			static Layout()
 			{
