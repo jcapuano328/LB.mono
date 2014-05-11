@@ -111,18 +111,20 @@
             android:gravity="center"
             android:id="@+id/layoutActions1"
             android:weightSum="1">
-            <Button
-                android:text="Fire"
+            <ImageButton
+                android:src="@drawable/fire"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".45"
-                android:id="@+id/btnFire" />
-            <Button
-                android:text="Melee"
+                android:id="@+id/btnFire"
+                android:scaleType="fitXY" />
+            <ImageButton
+                android:src="@drawable/melee"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".45"
-                android:id="@+id/btnMelee" />
+                android:id="@+id/btnMelee"
+                android:scaleType="fitXY" />
         </LinearLayout>
         <LinearLayout
             android:orientation="horizontal"
@@ -135,18 +137,20 @@
             android:id="@+id/layoutActions2"
             android:gravity="center"
             android:weightSum="1">
-            <Button
-                android:text="Morale"
+            <ImageButton
+                android:src="@drawable/morale"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".45"
-                android:id="@+id/btnMorale" />
-            <Button
-                android:text="General"
+                android:id="@+id/btnMorale"
+                android:scaleType="fitXY" />
+            <ImageButton
+                android:src="@drawable/dice"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight=".45"
-                android:id="@+id/btnGeneral" />
+                android:id="@+id/btnGeneral"
+                android:scaleType="fitXY" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

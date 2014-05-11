@@ -27,7 +27,7 @@ namespace LB
 		TextView txtPhase;
 		Button btnPhasePrev;
 		Button btnPhaseNext;
-		Button btnFire;
+		ImageButton btnFire;
 		Game game;
 
 		protected override void OnCreate (Bundle bundle)
@@ -58,7 +58,7 @@ namespace LB
 
 			btnReset = FindViewById<Button>(Resource.Id.btnReset);
 
-			btnFire = FindViewById<Button>(Resource.Id.btnFire);
+			btnFire = FindViewById<ImageButton>(Resource.Id.btnFire);
 		}
 
 		protected override void OnResume ()

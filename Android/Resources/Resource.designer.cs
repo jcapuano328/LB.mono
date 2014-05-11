@@ -118,58 +118,70 @@ namespace LB
 			public const int defender = 2130837527;
 			
 			// aapt resource value: 0x7f020018
-			public const int ic_ab_back_holo_dark = 2130837528;
+			public const int dice = 2130837528;
 			
 			// aapt resource value: 0x7f020019
-			public const int Icon = 2130837529;
+			public const int fire = 2130837529;
 			
 			// aapt resource value: 0x7f02001a
-			public const int lb = 2130837530;
+			public const int ic_ab_back_holo_dark = 2130837530;
 			
 			// aapt resource value: 0x7f02001b
-			public const int red_button = 2130837531;
+			public const int Icon = 2130837531;
 			
 			// aapt resource value: 0x7f02001c
-			public const int redw1 = 2130837532;
+			public const int lb = 2130837532;
 			
 			// aapt resource value: 0x7f02001d
-			public const int redw2 = 2130837533;
+			public const int melee = 2130837533;
 			
 			// aapt resource value: 0x7f02001e
-			public const int redw3 = 2130837534;
+			public const int morale = 2130837534;
 			
 			// aapt resource value: 0x7f02001f
-			public const int redw4 = 2130837535;
+			public const int red_button = 2130837535;
 			
 			// aapt resource value: 0x7f020020
-			public const int redw5 = 2130837536;
+			public const int redw1 = 2130837536;
 			
 			// aapt resource value: 0x7f020021
-			public const int redw6 = 2130837537;
+			public const int redw2 = 2130837537;
 			
 			// aapt resource value: 0x7f020022
-			public const int reset = 2130837538;
+			public const int redw3 = 2130837538;
 			
 			// aapt resource value: 0x7f020023
-			public const int tombstone = 2130837539;
+			public const int redw4 = 2130837539;
 			
 			// aapt resource value: 0x7f020024
-			public const int whiteb1 = 2130837540;
+			public const int redw5 = 2130837540;
 			
 			// aapt resource value: 0x7f020025
-			public const int whiteb2 = 2130837541;
+			public const int redw6 = 2130837541;
 			
 			// aapt resource value: 0x7f020026
-			public const int whiteb3 = 2130837542;
+			public const int reset = 2130837542;
 			
 			// aapt resource value: 0x7f020027
-			public const int whiteb4 = 2130837543;
+			public const int tombstone = 2130837543;
 			
 			// aapt resource value: 0x7f020028
-			public const int whiteb5 = 2130837544;
+			public const int whiteb1 = 2130837544;
 			
 			// aapt resource value: 0x7f020029
-			public const int whiteb6 = 2130837545;
+			public const int whiteb2 = 2130837545;
+			
+			// aapt resource value: 0x7f02002a
+			public const int whiteb3 = 2130837546;
+			
+			// aapt resource value: 0x7f02002b
+			public const int whiteb4 = 2130837547;
+			
+			// aapt resource value: 0x7f02002c
+			public const int whiteb5 = 2130837548;
+			
+			// aapt resource value: 0x7f02002d
+			public const int whiteb6 = 2130837549;
 			
 			static Drawable()
 			{

@@ -117,6 +117,10 @@
     <AndroidResource Include="Resources\drawable\capture.svg" />
     <AndroidResource Include="Resources\drawable\tombstone.png" />
     <AndroidResource Include="Resources\raw\droll.wav" />
+    <AndroidResource Include="Resources\drawable\dice.png" />
+    <AndroidResource Include="Resources\drawable\fire.png" />
+    <AndroidResource Include="Resources\drawable\melee.png" />
+    <AndroidResource Include="Resources\drawable\morale.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
