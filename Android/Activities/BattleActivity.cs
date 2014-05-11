@@ -28,6 +28,7 @@ namespace LB
 		Button btnPhasePrev;
 		Button btnPhaseNext;
 		ImageButton btnFire;
+		ImageButton btnMorale;
 		Game game;
 
 		protected override void OnCreate (Bundle bundle)
@@ -59,6 +60,7 @@ namespace LB
 			btnReset = FindViewById<Button>(Resource.Id.btnReset);
 
 			btnFire = FindViewById<ImageButton>(Resource.Id.btnFire);
+			btnMorale = FindViewById<ImageButton>(Resource.Id.btnMorale);
 		}
 
 		protected override void OnResume ()
@@ -113,6 +115,15 @@ namespace LB
 				StartActivity (fireDetail);
 			};
 
+			btnMorale.Click += (sender, e) => { 
+
+				var moraleDetail = new Intent (this, typeof(MoraleActivity));
+				moraleDetail.PutExtra("Battle", game.Battle.Id);
+				moraleDetail.PutExtra ("Scenario", game.Scenario.Id);
+
+				StartActivity (moraleDetail);
+			};
+			
 			Update();
 		}
 		
