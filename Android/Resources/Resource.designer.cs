@@ -202,8 +202,8 @@ namespace LB
 			// aapt resource value: 0x7f070052
 			public const int MainTitlebar = 2131165266;
 			
-			// aapt resource value: 0x7f07006f
-			public const int SubTitlebar = 2131165295;
+			// aapt resource value: 0x7f0700bd
+			public const int SubTitlebar = 2131165373;
 			
 			// aapt resource value: 0x7f07000d
 			public const int btnFire = 2131165197;
@@ -253,35 +253,107 @@ namespace LB
 			// aapt resource value: 0x7f07000e
 			public const int btnMelee = 2131165198;
 			
+			// aapt resource value: 0x7f070060
+			public const int btnMeleeAttackerAdd = 2131165280;
+			
+			// aapt resource value: 0x7f07005e
+			public const int btnMeleeAttackerNext = 2131165278;
+			
+			// aapt resource value: 0x7f07005b
+			public const int btnMeleeAttackerPrev = 2131165275;
+			
+			// aapt resource value: 0x7f070061
+			public const int btnMeleeAttackerReset = 2131165281;
+			
+			// aapt resource value: 0x7f07006b
+			public const int btnMeleeDefenderAdd = 2131165291;
+			
+			// aapt resource value: 0x7f070069
+			public const int btnMeleeDefenderNext = 2131165289;
+			
+			// aapt resource value: 0x7f070066
+			public const int btnMeleeDefenderPrev = 2131165286;
+			
+			// aapt resource value: 0x7f07006c
+			public const int btnMeleeDefenderReset = 2131165292;
+			
+			// aapt resource value: 0x7f070078
+			public const int btnMeleeDiceRoll = 2131165304;
+			
+			// aapt resource value: 0x7f070088
+			public const int btnMeleeIncrNext = 2131165320;
+			
+			// aapt resource value: 0x7f070085
+			public const int btnMeleeIncrPrev = 2131165317;
+			
+			// aapt resource value: 0x7f070097
+			public const int btnMeleeLanceNext = 2131165335;
+			
+			// aapt resource value: 0x7f070094
+			public const int btnMeleeLancePrev = 2131165332;
+			
+			// aapt resource value: 0x7f07008d
+			public const int btnMeleeLossNext = 2131165325;
+			
+			// aapt resource value: 0x7f07008a
+			public const int btnMeleeLossPrev = 2131165322;
+			
+			// aapt resource value: 0x7f0700a0
+			public const int btnMeleeMods12 = 2131165344;
+			
+			// aapt resource value: 0x7f07009f
+			public const int btnMeleeMods13 = 2131165343;
+			
+			// aapt resource value: 0x7f0700a2
+			public const int btnMeleeMods2 = 2131165346;
+			
+			// aapt resource value: 0x7f0700a1
+			public const int btnMeleeMods32 = 2131165345;
+			
+			// aapt resource value: 0x7f0700a3
+			public const int btnMeleeModsLnc = 2131165347;
+			
+			// aapt resource value: 0x7f07009c
+			public const int btnMeleeTotalNext = 2131165340;
+			
+			// aapt resource value: 0x7f070099
+			public const int btnMeleeTotalPrev = 2131165337;
+			
+			// aapt resource value: 0x7f070092
+			public const int btnMeleeValueNext = 2131165330;
+			
+			// aapt resource value: 0x7f07008f
+			public const int btnMeleeValuePrev = 2131165327;
+			
 			// aapt resource value: 0x7f070010
 			public const int btnMorale = 2131165200;
 			
-			// aapt resource value: 0x7f070060
-			public const int btnMoraleDiceRoll = 2131165280;
+			// aapt resource value: 0x7f0700ae
+			public const int btnMoraleDiceRoll = 2131165358;
 			
-			// aapt resource value: 0x7f070064
-			public const int btnMoraleMinus1 = 2131165284;
+			// aapt resource value: 0x7f0700b2
+			public const int btnMoraleMinus1 = 2131165362;
 			
-			// aapt resource value: 0x7f070063
-			public const int btnMoraleMinus3 = 2131165283;
+			// aapt resource value: 0x7f0700b1
+			public const int btnMoraleMinus3 = 2131165361;
 			
-			// aapt resource value: 0x7f070062
-			public const int btnMoraleMinus6 = 2131165282;
+			// aapt resource value: 0x7f0700b0
+			public const int btnMoraleMinus6 = 2131165360;
 			
-			// aapt resource value: 0x7f07005b
-			public const int btnMoraleNext = 2131165275;
+			// aapt resource value: 0x7f0700a9
+			public const int btnMoraleNext = 2131165353;
 			
-			// aapt resource value: 0x7f070066
-			public const int btnMoralePlus1 = 2131165286;
+			// aapt resource value: 0x7f0700b4
+			public const int btnMoralePlus1 = 2131165364;
 			
-			// aapt resource value: 0x7f070067
-			public const int btnMoralePlus3 = 2131165287;
+			// aapt resource value: 0x7f0700b5
+			public const int btnMoralePlus3 = 2131165365;
 			
-			// aapt resource value: 0x7f070069
-			public const int btnMoralePlus6 = 2131165289;
+			// aapt resource value: 0x7f0700b7
+			public const int btnMoralePlus6 = 2131165367;
 			
-			// aapt resource value: 0x7f070058
-			public const int btnMoralePrev = 2131165272;
+			// aapt resource value: 0x7f0700a6
+			public const int btnMoralePrev = 2131165350;
 			
 			// aapt resource value: 0x7f070009
 			public const int btnPhaseNext = 2131165193;
@@ -298,8 +370,35 @@ namespace LB
 			// aapt resource value: 0x7f070002
 			public const int btnTurnPrev = 2131165186;
 			
-			// aapt resource value: 0x7f07005a
-			public const int editMoraleValue = 2131165274;
+			// aapt resource value: 0x7f070062
+			public const int editMeleeAttackerAdd = 2131165282;
+			
+			// aapt resource value: 0x7f07005d
+			public const int editMeleeAttackerValue = 2131165277;
+			
+			// aapt resource value: 0x7f07006d
+			public const int editMeleeDefenderAdd = 2131165293;
+			
+			// aapt resource value: 0x7f070068
+			public const int editMeleeDefenderValue = 2131165288;
+			
+			// aapt resource value: 0x7f070087
+			public const int editMeleeIncrValue = 2131165319;
+			
+			// aapt resource value: 0x7f070096
+			public const int editMeleeLanceValue = 2131165334;
+			
+			// aapt resource value: 0x7f07008c
+			public const int editMeleeLossValue = 2131165324;
+			
+			// aapt resource value: 0x7f07009b
+			public const int editMeleeTotalValue = 2131165339;
+			
+			// aapt resource value: 0x7f070091
+			public const int editMeleeValueValue = 2131165329;
+			
+			// aapt resource value: 0x7f0700a8
+			public const int editMoraleValue = 2131165352;
 			
 			// aapt resource value: 0x7f070039
 			public const int imgFireDie1 = 2131165241;
@@ -331,11 +430,32 @@ namespace LB
 			// aapt resource value: 0x7f070049
 			public const int imgGeneral2Die2 = 2131165257;
 			
-			// aapt resource value: 0x7f07005e
-			public const int imgMoraleDie1 = 2131165278;
+			// aapt resource value: 0x7f070073
+			public const int imgMeleeDie1 = 2131165299;
 			
-			// aapt resource value: 0x7f07005f
-			public const int imgMoraleDie2 = 2131165279;
+			// aapt resource value: 0x7f070074
+			public const int imgMeleeDie2 = 2131165300;
+			
+			// aapt resource value: 0x7f070075
+			public const int imgMeleeDie3 = 2131165301;
+			
+			// aapt resource value: 0x7f070076
+			public const int imgMeleeDie4 = 2131165302;
+			
+			// aapt resource value: 0x7f070077
+			public const int imgMeleeDie5 = 2131165303;
+			
+			// aapt resource value: 0x7f07007f
+			public const int imgMeleeLeaderLoss = 2131165311;
+			
+			// aapt resource value: 0x7f07007d
+			public const int imgMeleeLeaderLossSide = 2131165309;
+			
+			// aapt resource value: 0x7f0700ac
+			public const int imgMoraleDie1 = 2131165356;
+			
+			// aapt resource value: 0x7f0700ad
+			public const int imgMoraleDie2 = 2131165357;
 			
 			// aapt resource value: 0x7f070000
 			public const int includeBattleTitlebar = 2131165184;
@@ -350,7 +470,10 @@ namespace LB
 			public const int includeMainTitlebar = 2131165264;
 			
 			// aapt resource value: 0x7f070056
-			public const int includeMoraleTitlebar = 2131165270;
+			public const int includeMeleeTitlebar = 2131165270;
+			
+			// aapt resource value: 0x7f0700a4
+			public const int includeMoraleTitlebar = 2131165348;
 			
 			// aapt resource value: 0x7f07000b
 			public const int layoutActions = 2131165195;
@@ -403,17 +526,80 @@ namespace LB
 			// aapt resource value: 0x7f070047
 			public const int layoutGeneral2Dice = 2131165255;
 			
-			// aapt resource value: 0x7f07005d
-			public const int layoutMoraleDice = 2131165277;
-			
-			// aapt resource value: 0x7f070061
-			public const int layoutMoraleMods = 2131165281;
-			
-			// aapt resource value: 0x7f07006b
-			public const int layoutMoraleResults = 2131165291;
+			// aapt resource value: 0x7f070058
+			public const int layoutMeleeAttacker = 2131165272;
 			
 			// aapt resource value: 0x7f070057
-			public const int layoutMoraleValue = 2131165271;
+			public const int layoutMeleeAttackerDefender = 2131165271;
+			
+			// aapt resource value: 0x7f07005f
+			public const int layoutMeleeAttackerMods = 2131165279;
+			
+			// aapt resource value: 0x7f07005a
+			public const int layoutMeleeAttackerValue = 2131165274;
+			
+			// aapt resource value: 0x7f070081
+			public const int layoutMeleeCalc = 2131165313;
+			
+			// aapt resource value: 0x7f070080
+			public const int layoutMeleeCalculate = 2131165312;
+			
+			// aapt resource value: 0x7f070063
+			public const int layoutMeleeDefender = 2131165283;
+			
+			// aapt resource value: 0x7f07006a
+			public const int layoutMeleeDefenderMods = 2131165290;
+			
+			// aapt resource value: 0x7f070065
+			public const int layoutMeleeDefenderValue = 2131165285;
+			
+			// aapt resource value: 0x7f070072
+			public const int layoutMeleeDice = 2131165298;
+			
+			// aapt resource value: 0x7f07009d
+			public const int layoutMeleeMods = 2131165341;
+			
+			// aapt resource value: 0x7f07006e
+			public const int layoutMeleeOdds = 2131165294;
+			
+			// aapt resource value: 0x7f07006f
+			public const int layoutMeleeOddsSelect = 2131165295;
+			
+			// aapt resource value: 0x7f070079
+			public const int layoutMeleeResults = 2131165305;
+			
+			// aapt resource value: 0x7f07007a
+			public const int layoutMeleeResults2 = 2131165306;
+			
+			// aapt resource value: 0x7f070084
+			public const int layoutMeleeUnitIncr = 2131165316;
+			
+			// aapt resource value: 0x7f070093
+			public const int layoutMeleeUnitLance = 2131165331;
+			
+			// aapt resource value: 0x7f070089
+			public const int layoutMeleeUnitLoss = 2131165321;
+			
+			// aapt resource value: 0x7f070098
+			public const int layoutMeleeUnitTotal = 2131165336;
+			
+			// aapt resource value: 0x7f07008e
+			public const int layoutMeleeUnitValue = 2131165326;
+			
+			// aapt resource value: 0x7f070082
+			public const int layoutMeleeUnitValues = 2131165314;
+			
+			// aapt resource value: 0x7f0700ab
+			public const int layoutMoraleDice = 2131165355;
+			
+			// aapt resource value: 0x7f0700af
+			public const int layoutMoraleMods = 2131165359;
+			
+			// aapt resource value: 0x7f0700b9
+			public const int layoutMoraleResults = 2131165369;
+			
+			// aapt resource value: 0x7f0700a5
+			public const int layoutMoraleValue = 2131165349;
 			
 			// aapt resource value: 0x7f070006
 			public const int layoutPhase = 2131165190;
@@ -436,20 +622,47 @@ namespace LB
 			// aapt resource value: 0x7f070041
 			public const int lblFireResults = 2131165249;
 			
-			// aapt resource value: 0x7f070065
-			public const int lblMoraleDiv = 2131165285;
+			// aapt resource value: 0x7f07005c
+			public const int lblMeleeAttackerValue = 2131165276;
 			
-			// aapt resource value: 0x7f070068
-			public const int lblMoralePlus1 = 2131165288;
+			// aapt resource value: 0x7f070067
+			public const int lblMeleeDefenderValue = 2131165287;
 			
-			// aapt resource value: 0x7f07006a
-			public const int lblMoralePlus3 = 2131165290;
+			// aapt resource value: 0x7f070086
+			public const int lblMeleeIncrValue = 2131165318;
 			
-			// aapt resource value: 0x7f07006c
-			public const int lblMoraleResults = 2131165292;
+			// aapt resource value: 0x7f070095
+			public const int lblMeleeLanceValue = 2131165333;
 			
-			// aapt resource value: 0x7f070059
-			public const int lblMoraleValue = 2131165273;
+			// aapt resource value: 0x7f07008b
+			public const int lblMeleeLossValue = 2131165323;
+			
+			// aapt resource value: 0x7f070071
+			public const int lblMeleeOdds = 2131165297;
+			
+			// aapt resource value: 0x7f07007b
+			public const int lblMeleeResults = 2131165307;
+			
+			// aapt resource value: 0x7f07009a
+			public const int lblMeleeTotalValue = 2131165338;
+			
+			// aapt resource value: 0x7f070090
+			public const int lblMeleeValueValue = 2131165328;
+			
+			// aapt resource value: 0x7f0700b3
+			public const int lblMoraleDiv = 2131165363;
+			
+			// aapt resource value: 0x7f0700b6
+			public const int lblMoralePlus1 = 2131165366;
+			
+			// aapt resource value: 0x7f0700b8
+			public const int lblMoralePlus3 = 2131165368;
+			
+			// aapt resource value: 0x7f0700ba
+			public const int lblMoraleResults = 2131165370;
+			
+			// aapt resource value: 0x7f0700a7
+			public const int lblMoraleValue = 2131165351;
 			
 			// aapt resource value: 0x7f070051
 			public const int listBattles = 2131165265;
@@ -469,8 +682,11 @@ namespace LB
 			// aapt resource value: 0x7f070036
 			public const int spinFireOdds = 2131165238;
 			
-			// aapt resource value: 0x7f07006e
-			public const int textDate = 2131165294;
+			// aapt resource value: 0x7f070070
+			public const int spinMeleeOdds = 2131165296;
+			
+			// aapt resource value: 0x7f0700bc
+			public const int textDate = 2131165372;
 			
 			// aapt resource value: 0x7f070021
 			public const int textFireAttackerValue = 2131165217;
@@ -481,8 +697,8 @@ namespace LB
 			// aapt resource value: 0x7f07002d
 			public const int textFireDefenderValue = 2131165229;
 			
-			// aapt resource value: 0x7f07005c
-			public const int textMoraleValue = 2131165276;
+			// aapt resource value: 0x7f0700aa
+			public const int textMoraleValue = 2131165354;
 			
 			// aapt resource value: 0x7f070012
 			public const int textName = 2131165202;
@@ -529,8 +745,26 @@ namespace LB
 			// aapt resource value: 0x7f070042
 			public const int txtFireResults = 2131165250;
 			
-			// aapt resource value: 0x7f07006d
-			public const int txtMoraleResults = 2131165293;
+			// aapt resource value: 0x7f070059
+			public const int txtMeleeAttacker = 2131165273;
+			
+			// aapt resource value: 0x7f070064
+			public const int txtMeleeDefender = 2131165284;
+			
+			// aapt resource value: 0x7f07007e
+			public const int txtMeleeLeaderLoss = 2131165310;
+			
+			// aapt resource value: 0x7f07009e
+			public const int txtMeleeMods = 2131165342;
+			
+			// aapt resource value: 0x7f07007c
+			public const int txtMeleeResults = 2131165308;
+			
+			// aapt resource value: 0x7f070083
+			public const int txtMeleeUnit = 2131165315;
+			
+			// aapt resource value: 0x7f0700bb
+			public const int txtMoraleResults = 2131165371;
 			
 			static Id()
 			{
@@ -567,13 +801,16 @@ namespace LB
 			public const int MainTitlebar = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int Morale = 2130903047;
+			public const int Melee = 2130903047;
 			
 			// aapt resource value: 0x7f030008
-			public const int ScenarioListItem = 2130903048;
+			public const int Morale = 2130903048;
 			
 			// aapt resource value: 0x7f030009
-			public const int SubTitlebar = 2130903049;
+			public const int ScenarioListItem = 2130903049;
+			
+			// aapt resource value: 0x7f03000a
+			public const int SubTitlebar = 2130903050;
 			
 			static Layout()
 			{

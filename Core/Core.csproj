@@ -61,6 +61,7 @@
     <Compile Include="Base6Value.cs" />
     <Compile Include="LeaderLoss.cs" />
     <Compile Include="Morale.cs" />
+    <Compile Include="MeleeCombat.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

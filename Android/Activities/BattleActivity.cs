@@ -28,6 +28,7 @@ namespace LB
 		Button btnPhasePrev;
 		Button btnPhaseNext;
 		ImageButton btnFire;
+		ImageButton btnMelee;
 		ImageButton btnMorale;
 		ImageButton btnGeneral;
 		Game game;
@@ -61,6 +62,7 @@ namespace LB
 			btnReset = FindViewById<Button>(Resource.Id.btnReset);
 
 			btnFire = FindViewById<ImageButton>(Resource.Id.btnFire);
+			btnMelee = FindViewById<ImageButton>(Resource.Id.btnMelee);
 			btnMorale = FindViewById<ImageButton>(Resource.Id.btnMorale);
 			btnGeneral = FindViewById<ImageButton>(Resource.Id.btnGeneral);
 		}
@@ -117,6 +119,15 @@ namespace LB
 				StartActivity (fireDetail);
 			};
 
+			btnMelee.Click += (sender, e) => { 
+
+				var meleeDetail = new Intent (this, typeof(MeleeActivity));
+				meleeDetail.PutExtra("Battle", game.Battle.Id);
+				meleeDetail.PutExtra ("Scenario", game.Scenario.Id);
+
+				StartActivity (meleeDetail);
+			};
+				
 			btnMorale.Click += (sender, e) => { 
 
 				var moraleDetail = new Intent (this, typeof(MoraleActivity));
